@@ -1,0 +1,22 @@
+Exercício Avaliativo PHP:
+
+Crie um website
+Tema: cadastro de coleção de itens variados.
+
+Deve possuir no mínimo as seguintes páginas:
+
+- Inicial
+- Cadastro de usuários
+- Cadastro de Itens
+- Consulta de Itens (incluindo totalização dos valores)
+-- ao clicar em um item, uma página com sua descrição (detalhada) deve aparecer, incluindo uma foto do item.
+-- nesta página, deve existir um botão ou link para exclusão do item e outro para sua edição.
+- Edição de cadastro de usuário
+
+Quando o usuário estiver logado, seu nome deve aparecer na parte superior da tela, em todas as páginas.
+
+Cadastro do usuário: Deve conter os seguintes dados:
+- Nome, Sobrenome, CPF, E-mail, Endereço (Rua, número e CEP), Cidade, Foto
+
+Cadastro de produtos: Deve conter os seguintes dados:
+- Nome do produto, descrição (sucinta), quantidade, valor unitário, data de cadastro
