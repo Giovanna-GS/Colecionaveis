@@ -72,16 +72,28 @@ nav a:hover{
   padding: 15px;
 }
 .home{
-  margin-left: 20%;
+  margin-left: 8%;
+  display: flex;
+  margin-top: 10%;
   
 }
 .bloco{
-  
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 50px;
+  background-color: #5BC0EB;
+  padding: 80px;
 }
+.bloco a{
+  text-decoration: none;
+  color: #E5E5E5;
+  font-size: 22px;
+}
+.titulo{
+  text-align: center;
+
+  }
 
 .info{
   text-align: center;

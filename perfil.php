@@ -88,7 +88,7 @@
     else{
       $hashsenha = trim(password_hash($senha, PASSWORD_DEFAULT));
       $sql1 = " UPDATE usuarios
-      SET nome = '$nomeNovo', sobrenome = '$sobrenomeNovo', email = '$email', endereco = '$enderecoNovo', numero = '$numero', cidade = '$cidadeNova', senha = '$hashsenha'
+      SET nome = '$nomeNovo', sobrenome = '$sobrenomeNovo', email = '$email', endereco = '$enderecoNovo', numero = '$numero',  cidade = '$cidadeNova', senha = '$hashsenha'
       WHERE id = '$id'";
       $atualizar = mysqli_query($strcon, $sql1) or die ("Erro de conexão");
       header("LOCATION: home.php");

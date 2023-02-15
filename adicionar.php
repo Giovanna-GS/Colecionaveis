@@ -56,7 +56,7 @@ else{
 <body>
 
 <nav>
-<?php echo $_SESSION['name'] ?>
+<p class="logo"><?php echo $_SESSION['name'] ?></p>
     <a href="home.php">Pagina Inicial</a>
     <a href="produtos.php">Ver produtos</a>
     <a href="logout.php">Sair</a>

@@ -18,18 +18,18 @@ $resultado = mysqli_query($strcon, "SELECT * FROM usuarios");
   <title>Pagina Inicial</title>
 </head>
 <body>
-<h2>Bem-Vindo <?php echo $_SESSION['name'] ?></h2>
+<h2 class="titulo">Bem-Vindo <?php echo $_SESSION['name'] ?></h2>
 <div class="home">
 <div class="bloco">
-  <img src="assets/ver.png" alt="books">
+  <img src="assets/produtos.png" alt="books">
   <a href="produtos.php">Adicionar e editar</a>
 </div>
 <div class="bloco">
-  <img src="assets/perfil.png" alt="notebook">
+  <img src="assets/perfilAlt.png" alt="notebook">
   <a href="perfil.php">Editar Perfil</a>
 </div>
 <div class="bloco">
-  <img src="assets/sair.png" alt="">
+  <img src="assets/logout.png" alt="">
   <a href="logout.php">Sair</a>
 </div>
 </div>
